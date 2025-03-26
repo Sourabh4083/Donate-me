@@ -10,7 +10,7 @@ const About = () => {
       <div className="text-center mb-16">
         <h1 className="text-5xl font-bold mb-6 text-yellow-300">Buy Me a Chai: Empowering Creators, One Sip at a Time</h1>
         <p className="text-xl max-w-3xl mx-auto text-gray-200">
-          More than just a donation platform - we're building a community of support, connection, and dreams.
+          More than just a donation platform - we building a community of support, connection, and dreams.
         </p>
       </div>
 
@@ -34,14 +34,14 @@ const About = () => {
           </p>
           <p className="text-lg mb-6 leading-relaxed">
             Imagine the power of your small contribution. That single chai you buy could:
-            • Fund a student's next creative project
+            • Fund a students next creative project
             • Help an artist continue their passion
             • Support a writer finishing their book
             • Enable a musician to record their next track
           </p>
           <div className="bg-yellow-500 text-black p-6 rounded-xl shadow-lg">
             <blockquote className="italic text-xl mb-4">
-              "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars."
+              Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars.
             </blockquote>
             <cite className="font-bold">- Unknown</cite>
           </div>
@@ -52,7 +52,7 @@ const About = () => {
       <div className="text-center mt-16 bg-black/30 p-12 rounded-xl">
         <h3 className="text-4xl font-bold mb-6 text-yellow-300">Our Mission</h3>
         <p className="max-w-4xl mx-auto text-xl leading-relaxed">
-          We're not just a platform. We're a movement. A community that believes in the power of small gestures. 
+          We are not just a platform. We are a movement. A community that believes in the power of small gestures. 
           Where every chai bought is a vote of confidence, a spark of hope, a bridge between dreamers and supporters.
         </p>
       </div>
