@@ -117,7 +117,7 @@ const PaymentPage = ({ username }) => {
                 <div className='font-bold'>@{username}</div>
                 <p className='text-gray-500'>Total {payments.length} Payments done</p>
                 <p className='text-gray-500'>{currentUser.name} has raised ₹{payments.reduce((a, b) => a + b.amount, 0)}</p>
-                <p className='text-gray-500'>Let's help {username} to get a chai</p>
+                <p className='text-gray-500'>Lets help {username} to get a chai</p>
 
                 <div className="payment md:flex-row flex flex-col  gap-3 w-[80%] my-12">
                     <div className='bg-slate-900 w-full md:w-1/2  p-5 rounded-lg '>
@@ -129,7 +129,7 @@ const PaymentPage = ({ username }) => {
                                 return <li key={i} className='flex items-center gap-1 my-2' >
                                     <img width={25} src="/avatar.gif" alt="" />
                                     <span>
-                                        {p.name} donate <span className='font-bold'>₹{p.amount}</span> with a message "{p.message}"
+                                        {p.name} donate <span className='font-bold'>₹{p.amount}</span> with a message {p.message}
                                     </span>
                                 </li>
                             })}
